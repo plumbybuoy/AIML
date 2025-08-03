@@ -1,0 +1,33 @@
+### Data Cleaning Summary
+
+- **No missing values** were found in the dataset.
+- **No duplicate rows** were detected, so the data is unique.
+- **Data types** are appropriate for each column: numerical features are all numeric, with team, position, and player names as objects (strings).
+
+### Statistical Overview
+
+- The dataset contains stats for **556 players** from LaLiga.
+- **Minutes played:** ranges from 0 to 999, with a mean of ~125.9.
+- **Games played:** ranges from 0–38 (max possible in a season), with a median of 20.
+- **Yellow/Red Cards, Goals:** Most players receive few cards and score few goals. Some outliers (max goals: 36).
+
+### 5 Key Insights from the Data
+
+1. **Concentration of Goals Among a Few Players:**
+   - The mean goals scored is 1.7, but the median is 0, and the maximum is 36. This indicates that most players score very few or no goals, while a small number of star players account for most of the scoring.
+
+2. **Defensive vs. Offensive Contribution:**
+   - Median assists and goals are both 0, reinforcing that only a select group (mainly attackers and midfielders) produce scoring contributions, while a majority focus on defensive duties.
+
+3. **Card Discipline:**
+   - The dataset shows some players received up to 15 yellow cards and 2 red cards in a season. The average yellow cards per player is 3.3, signaling strict officiating or aggressive play styles for select players.
+
+4. **Variation in Involvement:**
+   - The average passes per player is 298, but many players (especially subs or backups) have far fewer, showing a steep hierarchy within teams regarding who gets the ball and dictates play.
+
+5. **Penalty Specialists are Rare:**
+   - Only a few players take penalties; the mean is 0.19 and the max is 6. Most players don’t score penalties at all, highlighting the reliance on designated specialists.
+
+If you’d like visualizations, more focused club/player analysis, or drilldowns by position or club, please specify!
+
+[1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/86749548/9d9eace9-15aa-401f-a0c2-b1d10a93cfc4/laliga_player_stats.csv
